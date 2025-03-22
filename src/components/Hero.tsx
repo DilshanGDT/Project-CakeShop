@@ -1,4 +1,3 @@
-import React from 'react';
 
 const Hero = () => {
   return (
@@ -8,7 +7,7 @@ const Hero = () => {
           <h1 className="text-6xl font-bold mb-4">
             Welcome to
             <br />
-            <span className="text-emerald-600">Cafe KOI</span>
+            <span className="text-emerald-600">Baking Bliss</span>
           </h1>
           <p className="text-gray-600 mb-8">
             A cycling-themed coffee house in Kandy, serving specialty coffees, homemade brownies, and custom cakes. Experience the perfect blend of coffee culture and cycling passion.
