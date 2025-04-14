@@ -7,6 +7,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 bg-white backdrop-blur-md border-b border-gray-200 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-28">
+          {/* Logo */}
           <Link to="/" className="flex items-center">
             <img src={logo} alt="Baking Bliss Logo" className="h-28 w-28" />
             <div>
@@ -16,6 +17,7 @@ const Navbar = () => {
             </div>
           </Link>
 
+          {/* Navigation Links */}
           <div className="flex space-x-8">
             <Link to="/" className="text-yellow-950 hover:text-yellow-700 transition-colors text-lg">Home</Link>
             <Link to="/menu" className="text-yellow-950 hover:text-yellow-700 transition-colors text-lg">Menu</Link>
@@ -24,10 +26,11 @@ const Navbar = () => {
             <Link to="/contact" className="text-yellow-950 hover:text-yellow-700 transition-colors text-lg">Contact</Link>
           </div>
 
+          {/* Social Media Icons */}
           <div className="flex items-center space-x-4">
             {/* Facebook Icon */}
             <a
-              href="https://www.instagram.com/cafe_koi"
+              href="https://www.facebook.com/share/1A9pL7RVon/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-yellow-950 hover:text-[#0866FF] transition-colors"
@@ -40,7 +43,7 @@ const Navbar = () => {
 
             {/* Instagram Icon */}
             <a
-              href="https://www.instagram.com/cafe_koi"
+              href="https://www.instagram.com/bakingblissbb/profilecard/?igsh=MTBwMmMxcXdhb202eA=="
               target="_blank"
               rel="noopener noreferrer"
               className="text-yellow-950 hover:text-pink-600 transition-colors"
@@ -52,7 +55,7 @@ const Navbar = () => {
 
             {/* Tiktok Icon */}
             <a
-              href="https://www.instagram.com/cafe_koi"
+              href="https://www.tiktok.com/@bakingblixx?_t=ZS-8vX21Z4dMmd&_r=1"
               target="_blank"
               rel="noopener noreferrer"
               className="text-yellow-950 hover:text-black transition-colors"
